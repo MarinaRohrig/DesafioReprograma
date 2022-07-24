@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Abel", "Lato", sans-serif;
+  font-size: 25px;
+} 
+h1{
+  color:hotpink;
+  font-size: 30px;
+}
+span{
+  color: hotpink;
+  font-weight: bold;
+}
+div{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  box-sizing: border-box;
+  border: 4px solid #76CAC7;
+  border-radius: 14px;
+  width: 500px;
+  height: 450px;
+  margin:  0 auto;
+  background: url("../img/imagemdeKLAU2018-porPixabay.jpg") no-repeat center;
+  /*Imagem do site Pixabay, pelo artista: KLAU2018*/
+  background-size: 500px 450px;
+}
+body {
+  background: url(../img/imagemdeKyraStarr-porPixaBay.jpg) no-repeat;
+  /*Imagem do site Pixabay, pelo artista: KyraStarr*/
+  background-size: cover;
+}
+input{
+  text-align: center;
+  color:hotpink;
+  border-radius: 5px;
+  background-color: white;
+  border-color: #76CAC7;
+}
+button {
+  width: 242px;
+  height: 37px;
+  background-color: #F9B5B4;
+  border: 2px solid #76CAC7;
+  color: #000;
+  text-align: center;
+  border-radius: 5px;
+}
+button:hover{
+  color:hotpink;
+}
+a:link{
+ font-size: 20px;
+}
+a:hover{
+  color:hotpink;
+}
+footer{
+  text-align: center;
+  font-size: 18px;
+}
+
